@@ -33,30 +33,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClick( View view ) {
-        switch( view.getId() ) {
-            case R.id.buttonToggleProgressCircle : {
-                boolean isChecked = ((ToggleButton) view).isChecked();
-                progressBarCircle.setVisibility( isChecked ? View.INVISIBLE : View.VISIBLE );
-                break;
-            }
-            case R.id.buttonProgressBarPrimaryIncrease: {
-                progressBarHorizontal.incrementProgressBy( 1 );
-                break;
-            }
-            case R.id.buttonProgressBarPrimaryDecrease: {
-                progressBarHorizontal.incrementProgressBy( -1 );
-                break;
-            }
-            case R.id.buttonProgressBarSecondaryIncrease: {
-                progressBarHorizontal.incrementSecondaryProgressBy( 1 );
-                break;
-            }
-            case R.id.buttonProgressBarSecondaryDecrease: {
-                progressBarHorizontal.incrementSecondaryProgressBy( -1 );
-                break;
-            }
-            default:
-                break;
-        }
     }
 }
