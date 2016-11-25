@@ -27,11 +27,34 @@ public class MainActivity extends AppCompatActivity {
 
         progressBarHorizontal = (ProgressBar)findViewById( R.id.progressHorizontal );
         progressBarHorizontal.setProgress( 0 );
-
-
-
+        progressBarHorizontal.setSecondaryProgress(0);
     }
-
+    // 코드 짤 때는 setOnClickListener를 사용을 지향!
     public void onButtonClick( View view ) {
+        switch(view.getId()) {
+            case R.id.buttonToggleProgressCircle : {
+                boolean isChecked = ((ToggleButton)view).isChecked();
+                progressBarCircle.setVisibility(isChecked ? View.INVISIBLE : View.VISIBLE);
+                break;
+            }
+            case R.id.buttonProgressBarPrimaryIncrease : {
+                progressBarHorizontal.incrementProgressBy(10);
+                break;
+            }
+            case R.id.buttonProgressBarPrimaryDecrease : {
+                progressBarHorizontal.incrementProgressBy(-10); // 감소도 같은 increment로 하고 마이너스로 쓴다
+                break;
+            }
+            case R.id.buttonProgressBarSecondaryIncrease : {
+                progressBarHorizontal.incrementSecondaryProgressBy(10);
+                break;
+            }
+            case R.id.buttonProgressBarSecondaryDecrease : {
+                progressBarHorizontal.incrementSecondaryProgressBy(-10);
+                break;
+            }
+            default :
+                break;
+        }
     }
 }

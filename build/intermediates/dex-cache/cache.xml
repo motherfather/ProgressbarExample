@@ -2,46 +2,76 @@
 <items version="2" >
 
     <item
-        jar="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_ec25a2085b875b0ee432e8690f13be6fd6f6722d.jar" />
+        <dex dex="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_8c3186b3c54b6635659a07f1b10c3a964bd37a0c\classes.dex" />
     </item>
     <item
-        jar="D:\bit2016\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\LSW\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_16eb07daf7f86393d11cab577adf2af5597d9fe1.jar" />
+        <dex dex="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_9f46f1a6a109bf1c4c9e2754e101d7d2029d8dc6\classes.dex" />
     </item>
     <item
-        jar="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_002726c30b2fa594d494ecd90c5f60a82c865ead.jar" />
+        sha1="23cfb45d2a50f1080bbe309b7ab5a7fbae12ce0b">
+        <dex dex="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7b0dc52feb22f207e27c4ecccd845e6a94733707\classes.dex" />
     </item>
     <item
-        jar="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_ee1801d7da0aefb4e9f267b73ddd3873c001497f.jar" />
-    </item>
-    <item
-        jar="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_c531b7a30e7a5472b1453160d3729ca6760de530.jar" />
+        <dex dex="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_feccfe2ef7396c68fccc7efa7e0438dafe455297\classes.dex" />
     </item>
     <item
-        jar="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_72f77d55d69509cfd0640e6c39a559d048fdb1f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1e5b2396ea9ae39ff16247a0b751f886679fd853">
+        <dex dex="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0a99bf61571391f323d6016528d04f644347d3ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_44efeccf3811ab447df54b821f212aa40d859d36\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\bit2016\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_886ea651706bb3ff3b3019f1b0040ee8f574c4cd.jar" />
+        <dex dex="D:\LSW\Android\AndroidStudioProjects\ProgressbarExample\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_d79438a882bd8a7da6e82c7f47ab5c3123e0b28d\classes.dex" />
     </item>
 
 </items>
