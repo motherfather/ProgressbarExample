@@ -1,4 +1,4 @@
-package com.estsoft.progressbarexample;
+package com.bit2016.progressbarexample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.estsoft.progressbarexample;
+package com.bit2016.progressbarexample;
 
 import org.junit.Test;
 
